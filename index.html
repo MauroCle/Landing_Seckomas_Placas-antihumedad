@@ -45,7 +45,7 @@
                     Nuevos problemas requieren nuevas soluciones.
                     <br> Somos expertos en combatir la
                     humedad.
-                    <br> Solicita tu prespuesto sin cargo.
+                    <br> Solicita tu presupuesto sin cargo.
                 </p>
             </div>
             <a class="banner-link" href="#form">Solicitar presupuesto</a>
@@ -54,7 +54,7 @@
             <div class="first-paragraph-flex">
                 <h2 class="h2-secKomas" id="seckomas">SecKomás</h2>
                 <h3 class="h3-secKomas">Antihumedad</h3>
-                <p>Nuestras placas absorben la humedad de paredes liberandola por sus microporos en forma de humedad
+                <p>Nuestras placas absorben la humedad de paredes liberándola por sus microporos en forma de humedad
                     ambiente, limpia, sin manchas ni olores convirtiéndola en aire sano para tu casa.</p>
                 <div class="galery">
                     <img src="./Resources/imgs/seckomas/seckomas.webp" alt="">
@@ -90,39 +90,40 @@
         <section class="form-flex" id="form">
             <div class="text-contact-form">
                 <h3>Contactanos</h3>
-                <p>Disponemos de los mejores profesionales para atender a tu consulta y asesorarte sin ningun cargo.
-                    <br>Contactanos por medio de este formulario y atenderemos tu consulta con el mejor tiempo de
+                <p>Disponemos de los mejores profesionales para atender a tu consulta y asesorarte sin ningún cargo.
+                    <br>Contáctanos por medio de este formulario y atenderemos tu consulta con el mejor tiempo de
                     respuesta del mercado.
                 </p>
             </div>
             <div class="contact-form">
-                <form action="#" method="GET">
+                <form action="https://formspree.io/f/mgebyyyw" method="POST">
                     <!--Input nombre-->
                     <div>
-                        <span id="basic-addon1">Nombre</span><br>
-                        <input type="text" placeholder="Tu nombre completo" aria-label="Username"
-                            aria-describedby="basic-addon1">
+                        <span id="basic-addon1">Nombre<b>*</b></span><br>
+                        <input type="text" placeholder="Tu nombre completo" 
+                            aria-describedby="basic-addon1" name="Nombre" required>
                     </div>
                     <!--Input mail-->
                     <div>
-                        <span class="" id="basic-addon1">Correo electronico (opcional)</span><br>
-                        <input type="text" class="" placeholder="E-Mail de contacto" aria-label="Username"
-                            aria-describedby="basic-addon1">
+                        <span class="" id="basic-addon1">Correo electrónico</span><br>
+                        <input type="email" class="" placeholder="E-Mail de contacto" 
+                            aria-describedby="basic-addon1" name="E-Mail">
                     </div>
                     <div>
-                        <span class="" id="basic-addon1">Telefono</span><br>
-                        <input type="text" class="" placeholder="Telefono de contacto" aria-label="Username"
-                            aria-describedby="basic-addon1">
+                        <span class="" id="basic-addon1">Teléfono<b>*</b></span><br>
+                        <input type="text" class="" placeholder="Teléfono de contacto" 
+                            aria-describedby="basic-addon1" name="Telefono" required>
                     </div>
 
                     <!--Input consulta-->
                     <div>
-                        <span class="" id="basic-addon1">Escribenos tu consulta</span><br>
-                        <textarea class="" placeholder="Indique su consulta aqui" id="floatingTextarea"></textarea>
+                        <span class="" id="basic-addon1">Escríbenos tu consulta<b>*</b></span><br>
+                        <textarea class="" placeholder="Indique su consulta aquí" id="floatingTextarea" name ="Mensaje" required></textarea>
                     </div>
                     <!--Botones enviar-restablecer -->
+                    <span class="warning-form">Los campos marcados con <b>*</b> son obligatorios.</span>
 
-                    <button type="button">Enviar consulta</button>
+                    <button type="submit">Enviar consulta</button>
 
                 </form>
             </div>
@@ -134,7 +135,7 @@
         <div>
             <ul>
                 <li>Venta e instalación de placas antihumedad, cielorrasos y revestimientos.</li>
-                <li>Telefono: (+54) 9 11 2400-5869</li>
+                <li>Teléfono: (+54) 9 11 2400-5869</li>
             </ul>
         </div>
         <div>

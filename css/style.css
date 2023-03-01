@@ -155,17 +155,21 @@ section h3 {
 }
 
 .h2-secKomas {
-    margin-top: 23%;
+    margin-top: 20%;
+    padding-top: 110px;
+    /* Uso de padding para que el scroll se muestre correctamente */
     color: var(--color1);
 }
 
 .h2-scKay {
-    margin-top: 120px;
+    padding-top: 110px;
+        /* Uso de padding para que el scroll se muestre correctamente */
     color: var(--color-sckay);
 }
 
 .h2-rocKal {
-    margin-top: 120px;
+    padding-top: 110px;
+        /* Uso de padding para que el scroll se muestre correctamente */
     color: var(--color-rockal);
 }
 
@@ -217,7 +221,7 @@ section p {
 /* Formulario */
 
 .form-flex {
-    margin-top: 170px;
+    padding-top: 170px;
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
@@ -246,6 +250,9 @@ section p {
     width: 100%;
 }
 
+.contact-form b{
+    color: rgb(197, 2, 2);
+}
 .form-flex form div {
     margin-top: 15px;
 }
@@ -271,6 +278,10 @@ section p {
     border: none;
 }
 
+.warning-form{
+    font-size: smaller!important;
+}
+
 .contact-form button {
     margin: 35px 0 0 24%;
     font-weight: 600;
@@ -284,6 +295,7 @@ section p {
     background-color: var(--color2);
     transition-duration: 0.3s;
 }
+
 /* Finaliza contenido */
 /* Inicia footer */
 
